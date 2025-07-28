@@ -60,10 +60,13 @@ public class Dashboard_Test extends BaseClass {
 		String watchName = dashboard.getTextgetTextWatchName();//get text Watchname
 
 		System.out.println(watchName);
-		Thread.sleep(1500);
+		
+		Thread.sleep(2500);
+
+		System.out.println(watchName);
 
 		dashboard.clickOnSmartwtacheAddtocart();//1st watch add to cart
-		Thread.sleep(1000);
+		Thread.sleep(1500);
 		add_to_cart = dashboard.clickOnAddtocart();//click on add to cart
 		Thread.sleep(1000);
 		String watchText = add_to_cart.getTextgetTextWatchNameInCart();//Get Text Watch name
@@ -73,15 +76,15 @@ public class Dashboard_Test extends BaseClass {
 			System.out.println(watchText);
 		}
 
-		Thread.sleep(1000);
+		Thread.sleep(1100);
 		add_to_cart.clickOnRemoveProduct();//remove Product to cart
 
 		driver.navigate().refresh();
-		Thread.sleep(1500);
+		Thread.sleep(1100);
 		String emptyCart = add_to_cart.getTextemptyCart();
-		soft.assertEquals(emptyCart, "Your Amazon Cart is empty", "Product Text Mismatch");
+		soft.assertEquals(emptyCart, "Your Amazon Cart is empty", "Product Text Mismatch in watch");
 
-		Thread.sleep(1000);
+		Thread.sleep(1100);
 		soft.assertAll();
 	}
 	
