@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-26T14:34:30 IST" name="Default suite" finished-at="2025-07-26T14:35:27 IST" duration-ms="57447">
+    <groups>
+    </groups>
+    <test started-at="2025-07-26T14:34:30 IST" name="Default test" finished-at="2025-07-26T14:35:27 IST" duration-ms="57447">
+      <class name="Testcases.Dashboard_Test">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:Testcases.Dashboard_Test@672872e1]" started-at="2025-07-26T14:34:30 IST" name="loadConfig" finished-at="2025-07-26T14:34:30 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:Testcases.Dashboard_Test@672872e1]" started-at="2025-07-26T14:34:30 IST" name="launchBrowser" finished-at="2025-07-26T14:34:33 IST" duration-ms="2951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="launchUrlCreateObject(org.testng.ITestResult)[pri:0, instance:Testcases.Dashboard_Test@672872e1]" started-at="2025-07-26T14:34:33 IST" name="launchUrlCreateObject" finished-at="2025-07-26T14:34:33 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=Dashboard_Test.verifyAmazoneLogoAndURL()[pri:1, instance:Testcases.Dashboard_Test@672872e1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrlCreateObject -->
+        <test-method signature="verifyAmazoneLogoAndURL()[pri:1, instance:Testcases.Dashboard_Test@672872e1]" started-at="2025-07-26T14:34:33 IST" name="verifyAmazoneLogoAndURL" finished-at="2025-07-26T14:34:34 IST" duration-ms="1525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAmazoneLogoAndURL -->
+        <test-method is-config="true" signature="launchUrlCreateObject(org.testng.ITestResult)[pri:0, instance:Testcases.Dashboard_Test@672872e1]" started-at="2025-07-26T14:34:34 IST" name="launchUrlCreateObject" finished-at="2025-07-26T14:34:34 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=Dashboard_Test.ApplyFilter()[pri:2, instance:Testcases.Dashboard_Test@672872e1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrlCreateObject -->
+        <test-method signature="ApplyFilter()[pri:2, instance:Testcases.Dashboard_Test@672872e1]" started-at="2025-07-26T14:34:34 IST" name="ApplyFilter" finished-at="2025-07-26T14:35:27 IST" duration-ms="52698" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApplyFilter -->
+        <test-method is-config="true" signature="closedBrowser()[pri:0, instance:Testcases.Dashboard_Test@672872e1]" started-at="2025-07-26T14:35:27 IST" name="closedBrowser" finished-at="2025-07-26T14:35:27 IST" duration-ms="224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closedBrowser -->
+      </class> <!-- Testcases.Dashboard_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
