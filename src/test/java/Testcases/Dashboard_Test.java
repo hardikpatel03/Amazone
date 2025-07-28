@@ -53,20 +53,20 @@ public class Dashboard_Test extends BaseClass {
 
 		dashboard.clickOnMobile();
 
-		dashboard.clickOnSamsungBrandCheckbox();
+		dashboard.clickOnSamsungBrandCheckbox();//click on samsung checkbox
 		Thread.sleep(1000);
-		dashboard.clickOnSmartwtaches();
+		dashboard.clickOnSmartwtaches();//select smartwatches
 		Thread.sleep(3000);
-		String watchName = dashboard.getTextgetTextWatchName();
+		String watchName = dashboard.getTextgetTextWatchName();//get text Watchname
 
 		System.out.println(watchName);
 		Thread.sleep(1500);
 
-		dashboard.clickOnSmartwtacheAddtocart();
+		dashboard.clickOnSmartwtacheAddtocart();//1st watch add to cart
 		Thread.sleep(1000);
-		add_to_cart = dashboard.clickOnclickOnAddtocart();
+		add_to_cart = dashboard.clickOnAddtocart();//click on add to cart
 		Thread.sleep(1000);
-		String watchText = add_to_cart.getTextgetTextWatchNameInCart();
+		String watchText = add_to_cart.getTextgetTextWatchNameInCart();//Get Text Watch name
 
 
 		if (watchName.contentEquals(watchText)) {
@@ -74,7 +74,7 @@ public class Dashboard_Test extends BaseClass {
 		}
 
 		Thread.sleep(1000);
-		add_to_cart.clickOnRemoveProduct();
+		add_to_cart.clickOnRemoveProduct();//remove Product to cart
 
 		driver.navigate().refresh();
 		Thread.sleep(1500);
@@ -88,7 +88,7 @@ public class Dashboard_Test extends BaseClass {
 	@Test(priority = 3)
 	public void SearchFunctionality() throws InterruptedException {
 		
-	//Add Search Functionality	
+		// add search
 	}
 	
 
