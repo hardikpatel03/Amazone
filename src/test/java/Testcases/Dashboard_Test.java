@@ -84,5 +84,12 @@ public class Dashboard_Test extends BaseClass {
 		Thread.sleep(1000);
 		soft.assertAll();
 	}
+	
+	@Test(priority = 3)
+	public void SearchFunctionality() throws InterruptedException {
+		
+	//Add Search Functionality	
+	}
+	
 
 }
