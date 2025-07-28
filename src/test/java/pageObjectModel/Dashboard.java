@@ -48,7 +48,7 @@ public class Dashboard extends BasePage {
 	@FindBy(xpath = "//span[@id='nav-cart-count']")
 	private WebElement clickOnAddtocart;
 
-	public Add_to_cart clickOnclickOnAddtocart() throws InterruptedException {
+	public Add_to_cart clickOnAddtocart() throws InterruptedException {
 		actionDriver.click(clickOnAddtocart);
 		return new Add_to_cart();
 	}
